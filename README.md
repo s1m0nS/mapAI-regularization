@@ -1,2 +1,1 @@
-# mapAI-regularization
-# mapAI-regularization
+# MapAI-regularization
