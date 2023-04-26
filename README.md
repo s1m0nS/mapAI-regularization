@@ -27,9 +27,9 @@ conda create --name mapai python=3.10
 conda activate mapai
 pip install -r requirements.txt
 ```
-Installing GDAL inside a conda environment can be tricky. 
+Installing GDAL inside a conda environment can be tricky. Follow the steps below according to your OS.
 
-On Linux follow the steps provided below:
+**Linux:**
 
 ```
 sudo apt-get update && sudo apt upgrade -y && sudo apt autoremove 
@@ -43,7 +43,7 @@ conda install tiledb=2.2
 conda install poppler
 ```
 
-On Windows:
+**Windows:**
 
 Get the appropriate .whl file for your Python version from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
 For Python 3.10 use either: 
@@ -56,6 +56,7 @@ conda activate mapai
 python -m pip install C:\Users\...\GDAL‑3.4.3‑cp310‑cp310‑win_amd64.whl
 ```
 
+Run our Jupyter Notebooks and enjoy the process. If you encounter errors post an issue.
 
 
 
