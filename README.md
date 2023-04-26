@@ -20,9 +20,13 @@ or by running our first notebook.
 
 ## Installation
 
-```python
-s = "Python syntax highlighting"
-print s
+```
+python
+git clone repo-name
+cd mapAI-regularization
+conda create --name mapai python=3.10
+conda activate mapai
+pip install -r requirements.txt
 ```
 
 
