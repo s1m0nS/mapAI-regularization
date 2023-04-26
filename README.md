@@ -1,6 +1,6 @@
 # mapAI-regularization
 
-The repository stores the code for our work presented at Foss4G 2023 with the title: **AN END-TO-END DEEP LEARNING WORKFLOW FOR BUILDING SEGMENTATION,
+The repository stores the code for our presented work at Foss4G 2023 with the title: **AN END-TO-END DEEP LEARNING WORKFLOW FOR BUILDING SEGMENTATION,
 BOUNDARY REGULARIZATION AND VECTORIZATION OF BUILDING FOOTPRINTS.**
 
 ## Introduction
@@ -58,7 +58,7 @@ python -m pip install C:\Users\...\GDAL‑3.4.3‑cp310‑cp310‑win_amd64.whl
 
 Run our Jupyter Notebooks and enjoy the process. If you encounter errors post an issue.
 
-
+Feedback and new ideas are welcome.
 
 
 
