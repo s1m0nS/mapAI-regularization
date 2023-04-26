@@ -10,7 +10,7 @@ The purpose of our research is to develop and end-to-end workflow for accurate s
  - (2) applying building boundary regularization and 
  - (3) vectorization. 
 
-The dataset used for building segmentation is the NORA MapAI: Precision in Building Segmentation dataset. We have developed an implementation for building footprint segmentation. Our approach extends the segmentation by implementing projectRegularization from (Zorzi and Fraundorfer, 2019, Zorzi et al., 2021) on a semantic segmentation task. The link to the official repository can be accessed here: https://github.com/zorzi-s/projectRegularization.
+The dataset used for building segmentation is the NORA MapAI: Precision in Building Segmentation dataset. We have developed an implementation for building footprint segmentation. Our approach extends the segmentation by implementing projectRegularization from (Zorzi and Fraundorfer, 2019, Zorzi et al., 2021) on a semantic segmentation task. The link to the official repository can be accessed here: https://github.com/zorzi-s/projectRegularization. Note that this is already included in our repository.
 
 ## MapAI dataset
 
@@ -26,6 +26,34 @@ cd mapAI-regularization
 conda create --name mapai python=3.10
 conda activate mapai
 pip install -r requirements.txt
+```
+Installing GDAL inside a conda environment can be tricky. 
+
+On Linux follow the steps provided below:
+
+```
+sudo apt-get update && sudo apt upgrade -y && sudo apt autoremove 
+sudo apt-get install -y cdo nco gdal-bin libgdal-dev-
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install --upgrade gdal
+conda install -c conda forge libgdal
+conda install -c conda-forge libgdal
+conda install -c conda-forge gdal
+conda install tiledb=2.2
+conda install poppler
+```
+
+On Windows:
+
+Get the appropriate .whl file for your Python version from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
+For Python 3.10 use either: 
+- GDAL‑3.4.3‑cp310‑cp310‑win_amd64.whl or
+- GDAL‑3.4.3‑cp310‑cp310‑win32.whl.
+
+then install the appropriate one as:
+```
+conda activate mapai
+python -m pip install C:\Users\...\GDAL‑3.4.3‑cp310‑cp310‑win_amd64.whl
 ```
 
 
