@@ -20,9 +20,10 @@ or by running our first notebook.
 
 ## Installation
 
-'''
-pip 
-'''
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 
 
