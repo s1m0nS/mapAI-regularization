@@ -21,7 +21,6 @@ or by running our first notebook.
 ## Installation
 
 ```
-python
 git clone repo-name
 cd mapAI-regularization
 conda create --name mapai python=3.10
