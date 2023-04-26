@@ -1,0 +1,7 @@
+projectRegularization was downloaded from:
+https://github.com/zorzi-s/projectRegularization
+
+Download and the pretrained_weights from:
+https://drive.google.com/drive/folders/1IPrDpvFq9ODW7UtPAJR_T-gGzxDat_uu
+
+Save them to folder: pretrained_weights
