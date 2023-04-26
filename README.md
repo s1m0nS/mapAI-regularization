@@ -1,4 +1,4 @@
-# mapAI-regularization
+## mapAI-regularization
 
 The repository stores the code for our presented work at Foss4G 2023 with the title: **AN END-TO-END DEEP LEARNING WORKFLOW FOR BUILDING SEGMENTATION,
 BOUNDARY REGULARIZATION AND VECTORIZATION OF BUILDING FOOTPRINTS.**
